@@ -13,10 +13,10 @@ $nueva_pelicula = new NextMovie($data1);
 <!doctype html>
 <html lang="en">
 <?php render_template("head", $data = []) ?>
-<!-- <?php render_template("banner", $data = []) ?> -->
+
 <?php render_template("body", $nueva_pelicula-> getData()) ?>
 
-<!-- <?php render_template("banner", $data = []) ?> -->
+
 
 </html>
 
